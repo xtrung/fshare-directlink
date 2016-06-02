@@ -115,6 +115,7 @@ class FshareDirectLink
         $downloadHtml = $downloadGetResult->getBody()->getContents();
         $crawler = new Crawler($downloadHtml);
         $downloadToken = $crawler->filter("input[name='fs_csrf']")->attr('value');
+        // post download and get result
         $linkCode = $this->getLinkCode($link);
         $downloadPostData = [
             'fs_csrf' => $downloadToken,
