@@ -1,5 +1,5 @@
 {
-    "name": "xtrung.net/fshare-directlink",
+    "name": "xtrung/fshare-directlink",
     "description": "The library for get direct download link of fshare(vip account required).",
     "keywords": ["library", "fshare"],
     "license": "GPL-3.0",

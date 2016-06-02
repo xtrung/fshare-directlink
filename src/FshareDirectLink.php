@@ -4,9 +4,9 @@
  * get fshare direct link with
  * vip account
  *
- * @author xtrung.net
+ * @author xtrung.net@gmail.com
  */
-namespace xtrungnet\DirectLink;
+namespace xtrung\DirectLink;
 
 use GuzzleHttp;
 use Symfony\Component\DomCrawler\Crawler;
