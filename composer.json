@@ -1,0 +1,18 @@
+{
+    "name": "xtrung.net/fshare-directlink",
+    "description": "The library for get direct download link of fshare(vip account required).",
+    "keywords": ["library", "fshare"],
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Bui Xuan Trung",
+            "email": "xtrung.net@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5",
+        "symfony/css-selector": "2.8.*|3.0.*",
+        "symfony/dom-crawler": "2.8.*|3.0.*",
+        "guzzlehttp/guzzle": "^6.2"
+    }
+}
